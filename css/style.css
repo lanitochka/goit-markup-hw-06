@@ -6,8 +6,7 @@
     --primary-text-color: #757575;
     --background-color: #2F303A;
     --alternative-background-color: #F5F4FA;
-    --fill: #AFB1B8;
-     
+    --fill: #AFB1B8;     
 }
 
 body {
@@ -688,11 +687,11 @@ footer .logo {
     align-items: baseline;
 }
 
-.footer-columns > li {
+.footer-columns > div {
     flex-basis: 25%;
 }
 
-.footer-columns > li:last-child {
+.footer-columns > div:last-child {
     flex-basis: 50%;
 }
 
@@ -747,7 +746,7 @@ footer h4 {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-columns li form {
+.footer-columns form {
     display: flex;
 }
 
@@ -912,6 +911,12 @@ footer h4 {
     border: none;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.modal-form .modal-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
